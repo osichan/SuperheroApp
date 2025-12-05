@@ -104,7 +104,9 @@ const AllHeroesView = ({
           >
             <Filter
               size={24}
-              color={hasActiveFilters ? tw.color("hero-text") : tw.color("hero-cyan")}
+              color={
+                hasActiveFilters ? tw.color("hero-text") : tw.color("hero-cyan")
+              }
             />
             {hasActiveFilters && (
               <View

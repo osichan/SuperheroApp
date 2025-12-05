@@ -33,6 +33,7 @@ const RootLayout = () => {
             <Stack.Screen
               name="index"
               options={{
+                title: "HEROES",
                 headerTitleAlign: "center",
                 headerTitle: () => (
                   <View style={tw`flex-row items-center gap-2`}>
